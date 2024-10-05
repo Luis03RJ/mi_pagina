@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <link rel="icon"  href="img/logo.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0008ff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Menú superior */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* Estilos de las secciones */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .section p {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para la tabla */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        /* Centrando el contenido */
+        .center {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        /* Estilo del encabezado */
+        h3 {
+            text-align: center;
+        }
+
+         /* Estilos para el formulario */
+         form {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Espacio entre campos */
+            padding: 20px; /* Espacio interno */
+            border: 1px solid #ddd; /* Borde alrededor del formulario */
+            border-radius: 10px; /* Bordes redondeados */
+            background-color: #f9f9f9; /* Color de fondo */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px; /* Tamaño de fuente */
+        }
+
+        input:focus, textarea:focus {
+            border-color: #5cb85c; /* Cambio de borde al enfocar */
+            outline: none; /* Sin contorno */
+        }
+
+        button {
+            padding: 10px;
+            background-color: #5cb85c;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px; /* Tamaño de fuente */
+        }
+
+        button:hover {
+            background-color: #4cae4c; /* Color al pasar el mouse */
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Blog Personal </h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="index.html#Artistas y Videos">Artistas y Videos</a>
+        <a href="index.html#video">Cancion del dia</a>
+        <a href="index.html#contacto">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <h2 style="text-align: center;">Bienvenidos a mi Blog Personal</h2>
+
+    <div class="container">
+        <!-- Sección 1 -->
+        
+        <div class="section" id="inicio">
+            <!-- Título de la sección -->
+           
+
+            <!-- Imagen -->
+            <img src="img/yo.jpeg" alt="Luis Angel" width="50" height="50">
+
+            <!-- Párrafo -->
+            <p>
+                <strong>Un poco sobre mi...</strong>
+                <br>
+                Hola soy Luis Angel,
+                Bienvenidos a mi blog personal donde comparto lo que me gusta y hablo de lo que me interesa, este es un espacio libre
+                en el que toco cualquier tema de interés.
+                <br>
+                Me gusta mucho la música, ver series y películas, además de compartir experiencias y contar historias peculiares.
+                Soy originario de Oaxaca, México, y espero poder conocer algunas regiones de este hermoso país.
+            </p>
+        </div>
+
+        <!-- Sección 2 -->
+        <div class="section" id="tuxtepec">
+            <img src="img/tuxtepec.jpeg" alt="Un pueblito Magico">
+            <p>
+                <strong>Tuxtepec, Oaxaca: Corazón de la Cuenca</strong>
+                <br>
+                
+                Tuxtepec es una vibrante ciudad ubicada en el noreste de Oaxaca,
+                conocida por ser el principal centro urbano de la región de la Cuenca del Papaloapan.
+                 Su estratégica ubicación la convierte en un punto de encuentro entre los estados de Oaxaca, Veracruz y Puebla.
+            </p>
+        </div>
+
+        <!-- Sección 3 -->
+        <div class="section" id="zoe">
+            <img src="img/zoe.jpeg" alt="Mi banda Favorita">
+            <p>
+                <strong>Una de mis bandas favoritas</strong>
+                <br>
+                Zoe es una banda de rock alternativo que tiene una gran trayectoria musical , en lo personal me gusta mucho su 
+                amplio tipo de canciones y estilos por los cuales a pasado la banda, me identidico mucho con sus canciones 
+                y las considero algo importanto a lo largo de mi adolecensia , algunas canciones me recuerdan a experiencias y otras 
+                a personas, mi albul favorito es el primero ya que es el mas experimental.
+            </p>
+        </div>
+
+        <!-- Sección 4 -->
+        <div class="section" id="porter">
+            <img src="img/porter.jpg" alt="Contáctanos">
+            <p>
+                <strong>Porter!!! de juan Son </strong>
+                <br>
+                Me gusta mucho la musica extraña y experimental de porter antes del cambio de vocalista, tiene canciones muy 
+                raras que talvez no sean de agrado popular pero si son una obra de arte, pues el transfondo de cada letra es 
+                brutal, siendo una de mas canciones favoritas Ana Paula, Dahpne y espiral. 
+                Juan son es un personaje extraño , como si se tratara de una pelicula de tim burton.
+            </p>
+        </div>
+
+
+        <!-- Sección 5 -->
+        <div class="section" id="cuco">
+            <img src="img/cuco.jpeg" alt="cuco">
+            <p>
+                <strong>Cuco: El orgullo latino que está conquistando la escena indie</strong>
+                <br>
+                Con raíces mexicanas, Cuco ha sabido fusionar la música latina con los sonidos más actuales del indie,
+                 creando un estilo único que lo ha llevado a la cima de las listas de popularidad. Sus canciones, 
+                 cantadas en español e inglés, hablan de amor, desamor y la búsqueda de la identidad, temas que resuenan 
+                 en el corazón de muchos latinos. ¡Cuco es la prueba de que la música latina tiene un lugar destacado en 
+                 la escena musical internacional!"
+            </p>
+        </div>
+
+                <!-- Sección 6 -->
+        <div class="section" id="jose">
+            <img src="img/jojo.jpeg" alt="Contáctanos" style="max-width: 200px; float: left; margin-right: 20px;">
+            
+            <p style="overflow: hidden;">
+                <strong>José José: El príncipe de la canción y los dolidos</strong>
+                <br>
+                ¡Absolutamente! José José, el "Príncipe de la Canción", 
+                es una figura icónica de la música latina que ha dejado una huella imborrable en la industria.
+                Su voz suave y emotiva, junto con sus románticas baladas, lo convirtieron en uno de los cantantes
+                más queridos y admirados de habla hispana.
+                <br><br>
+            </p>
+            <br>
+            <br>
+
+            
+            
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- Sección para la tabla de Artistas y Videos -->
+    <a name="Artistas y Videos">
+    <h3>Artistas y Videos</h3>
+    <h6 style="text-align: center;">Que te recomiendo ver</h6>
+    <div class="center">
+        <table>
+            <tr>
+                <th>Artista</th>
+                <th>Link del Video</th>
+            </tr>
+            <tr>
+                <td>José José: La nave del Olvido</td>
+                <td><a href="https://youtu.be/BprZX_bGhhg?si=tgX4YNRWRfZ_Re3B" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Luis Miguel: La bikina</td>
+                <td><a href="https://youtu.be/NCvJwzDQTBM?si=bAbyfNMFY1oc916v" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Juanes: Mala Gente</td>
+                <td><a href="https://youtu.be/qM1yOg1GhiY?si=x9ZP6rqZ_rsljQuj" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Porter: cuervos</td>
+                <td><a href="https://youtu.be/7ztALlzQ3uY?si=ubQW7NoRopA_AnfZ" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Zoe: Labios Rotos</td>
+                <td><a href="https://youtu.be/7h2ryr_uUEs?si=SeTeg3BjTtmZ9p4-" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Marc Anthony: Flor Palida</td>
+                <td><a href="https://youtu.be/3VmoZrxXbmg?si=eyOLs36BQ0Hi4H-t" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>Carlos Vives: la gota fria </td>
+                <td><a href="https://youtu.be/Nmb80HXWsFQ?si=dSjzZKPjnmQANALz" target="_blank">Ver Video</a></td>
+            </tr>
+            <tr>
+                <td>cuco: Lo que siento</td>
+                <td><a href="https://youtu.be/AjGkbFqi67c?si=Euv1WNYS8HpSD4Gs" target="_blank">Ver Video</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <a name="video">
+    <div style="text-align: center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ztALlzQ3uY?si=e7J6D5Vru6SIvfyx" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+         gyroscope; picture-in-picture; web-share"         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+     <!-- Formulario de Contacto -->
+     <a name="contacto">
+    <h3 >Contacto</h3>
+    <div id="contacto" class="center">
+        <form>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+            <textarea id="descripcion" name="descripcion" placeholder="Descripción" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        // Función para manejar el envío del formulario
+        document.querySelector("form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevenir el envío del formulario
+            alert("Mensaje enviado, gracias."); // Mostrar mensaje de confirmación
+            this.reset(); // Reiniciar el formulario
+        });
+    </script>
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; Hecho y elaborado por Luis Angel Ramirez Julian. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
